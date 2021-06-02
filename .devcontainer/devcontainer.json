@@ -1,5 +1,5 @@
 {
-    "name": "project-name",
+    "name": "cios-raspi-monitor-server",
     "dockerFile": "Dockerfile",
     "extensions": [
         "golang.go",
