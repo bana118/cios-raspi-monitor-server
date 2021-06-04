@@ -1,6 +1,8 @@
 {
     "name": "cios-raspi-monitor-server",
     "dockerFile": "Dockerfile",
+    "workspaceFolder": "/go/src/github.com/bana118/cios-raspi-monitor-server",
+    "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/go/src/github.com/bana118/cios-raspi-monitor-server",
     "extensions": [
         "golang.go",
     ]
